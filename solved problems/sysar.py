@@ -7,6 +7,7 @@ for i in range(1,k):
     if int(sys.argv[i]) > maxvalue:
         maxvalue = int(sys.argv[i])
     if int(sys.argv[i]) < minvalue:
-        minvalue =  int(sys.argv[i])
+        minvalue =  int(sys.argv[i])    
+print(sys.argv)
 print(maxvalue)
 print(minvalue)
