@@ -11,9 +11,6 @@ def bub_sort(lt):
         
 
 
-
-
-
 lt = list(map(int,input().split()))
 bub_sort(lt)
 print(f"sorted list {lt}")
